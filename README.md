@@ -53,7 +53,7 @@ GIT es una aplicación que nos ayuda a versionar el software que nos permite lle
               - Y puedes continuar  
                 - Concatenando  
 - Imágenes
-  - ![Texto alternativo de la imágen]('pic.png')
+  - ![Texto alternativo de la imágen](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtfS0tg-pdXXlIULOg4KgHfsiZnn1vmNKeeX07nX0YiPnH7oXu)
 
 - Links
   - [Nombre del link](http://urlsdellink.com)
