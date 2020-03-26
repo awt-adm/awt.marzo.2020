@@ -64,10 +64,18 @@ GIT es una aplicación que nos ayuda a versionar el software que nos permite lle
 # Linea de comandos
 
 - #### Comandos básicos
+  - **clear** -> *Limpia pantalla*
   - **mv**  -> *Mover o renombrar*
     - **Mover**
       - mv carpeta ../../
     - **Cambiar nombre**
       - mv carpeta carpeta.old
+  - **cp**  -> *Copiar*
+    - **Copiar archivo**
+      - cp archivo ../../../../
+    - **Copiar carpeta**
+      - cp -R carpeta ../../
+  - **touch**  -> *Crear archivo*
+    - touch nuevo_archivo.md
 
 
