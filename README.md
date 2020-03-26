@@ -1,3 +1,4 @@
+### Clase 1
 # Linea de comandos
 - Todos los comandos se escriben con minúscula
 - Tabulador: Completa el nombre de archivo/carpeta **Si existe en el directorio actual**
@@ -57,3 +58,16 @@ GIT es una aplicación que nos ayuda a versionar el software que nos permite lle
 
 - Links
   - [Nombre del link](http://urlsdellink.com)
+
+### Clase 2
+
+# Linea de comandos
+
+- #### Comandos básicos
+  - **mv**  -> *Mover o renombrar*
+    - **Mover**
+      - mv carpeta ../../
+    - **Cambiar nombre**
+      - mv carpeta carpeta.old
+
+
