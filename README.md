@@ -17,6 +17,12 @@
 
 # Git
 GIT es una aplicación que nos ayuda a versionar el software que nos permite llevar un orden en los cambios de nuestro código.
+
+```
+Nota: Para cerrar VIM
+- Tecla: esc
+- Esribir: ** :q! **
+```
 - Código **Open Source**
   - [Repositorio de Bitcoin](https://github.com/bitcoin/bitcoin)
 
@@ -97,5 +103,16 @@ GIT es una aplicación que nos ayuda a versionar el software que nos permite lle
     - window
     - document
 
-    #### Eventos
+    #### JS Eventos
     https://www.w3schools.com/jsref/dom_obj_event.asp
+
+
+### Clase 3
+
+  ##### JS Funciones
+  - Arrow function o Función anónima
+    - () => {
+      **contenido de funcion**
+    }
+  - Igualadas a variables o no anónimas
+    - const nombreFuncion = () => {}   
