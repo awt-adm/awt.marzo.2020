@@ -1,0 +1,23 @@
+body {
+    position: relative;
+}
+#modal {
+    /* display: none; */
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contenedorModal {
+    width: 75%;
+    height: auto;
+    background-color: #FFF;
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}

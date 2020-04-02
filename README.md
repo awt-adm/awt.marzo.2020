@@ -77,5 +77,25 @@ GIT es una aplicación que nos ayuda a versionar el software que nos permite lle
       - cp -R carpeta ../../
   - **touch**  -> *Crear archivo*
     - touch nuevo_archivo.md
+  - **rm** -> *Remover*
+    - **Remover archivo**
+      - rm archivo
+    - **Remover carpeta**
+      - rm -r carpeta 
 
+- ##### POO 1
+  - Fundamentos
+    - [OOP / POO](https://codesolt.com/tutoriales/fundamentos/programacion-orientada-objetos/)
+    - [OOP / POO](https://msdn.microsoft.com/es-es/library/bb972232.aspx)
+    - [ECMAScript 6](https://www.youtube.com/watch?v=OjMZg9gTLgw)  
+    - [JS](https://www.youtube.com/watch?v=k9wTpG8NI4Q)  
+    - [Material Design](https://material.io/)  
 
+- ### [DOM](https://es.wikipedia.org/wiki/Document_Object_Model)
+
+  - Constantes Globales (*Ya están predeclaradas en el DOM*)
+    - window
+    - document
+
+    #### Eventos
+    https://www.w3schools.com/jsref/dom_obj_event.asp
