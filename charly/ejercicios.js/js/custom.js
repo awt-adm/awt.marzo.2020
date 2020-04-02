@@ -1,27 +1,33 @@
 // TO DO: cambiar el color del <body>
 
 document.addEventListener("DOMContentLoaded", () => {
+  theming();
+
+  console.log("Theming cargado!");
+}); // fin ready
+
+//TO DO: Cambiar el fondo del body por medio de un Select desde html
+const theming = () => {
   let body = document.querySelector("body");
+  let seleccion = document.querySelector("#select-color");
 
-  // TODO: log cuando damos click en <body/>
-  body.addEventListener("click", () => {
-    console.log("Le diste click al body");
+  seleccion.addEventListener("change", evento => {
+    switch (evento.target.value) {
+      case "light":
+        //codigo
+        body.style.backgroundColor = "whitesmoke";
+        break;
+      case "dark":
+        //codigo
+        body.style.backgroundColor = "black";
+        break;
+
+      default:
+        //codigo si no se cumple el switch
+        console.log("No existe el theme");
+
+        break;
+    }
+    console.log("Ya cambieeee");
   });
-
-  body.style.backgroundColor = "red";
-
-  console.log("Ya cargo el documento");
-});
-
-// TO DO: Abre/Cierra una ventana modal
-// variables globales
-let botonAbreModal = document.querySelector("#mas-info button");
-let botonCierraModal = document.querySelector("#modal .contenedorModal header");
-let modal = document.querySelector("#modal");
-
-botonAbreModal.addEventListener("click", () => {
-  modal.style.display = "flex";
-});
-botonCierraModal.addEventListener("click", () => {
-  modal.style.display = "none";
-});
+};

@@ -1,15 +1,21 @@
 body {
     position: relative;
+    box-sizing: border-box;
+    margin: 0;
 }
+
 #modal {
-    /* display: none; */
+    display: none;
+    /* display: flex; */
     position: absolute;
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     top: 0;
     left: 0;
     z-index: 100000;
     background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
 }
 
 .contenedorModal {
@@ -20,4 +26,9 @@ body {
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 3px 3px 5px black;
+}
+
+.contenedorModal header {
+    cursor: pointer;
+    height: auto;
 }
