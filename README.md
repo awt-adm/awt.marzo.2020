@@ -19,7 +19,7 @@
 GIT es una aplicación que nos ayuda a versionar el software que nos permite llevar un orden en los cambios de nuestro código.
 
 ```
-Nota: Para cerrar VIM
+Nota: Para cerrar VIM(editor de texto en la terminal)
 - Tecla: esc
 - Esribir: ** :q! **
 ```
@@ -109,10 +109,48 @@ Nota: Para cerrar VIM
 
 ### Clase 3
 
-  ##### JS Funciones
-  - Arrow function o Función anónima
-    - () => {
-      **contenido de funcion**
-    }
-  - Igualadas a variables o no anónimas
-    - const nombreFuncion = () => {}   
+- #### Sintaxis
+ - Variables (No Tipado)
+   - Espacio en memoria que contiene cualquier valor, Se antepone el nombre de la variable:
+     - var
+     - let
+     - const
+     - final
+ - Strings
+   - Textos, siempre se escriben entre comillas
+     - "Soy un string"     
+ - Funciones
+   - Son intrucciones que se escriben entre {}
+     - Función anonima(Arrow function): () => {"Instruccion"}
+     - Función: function nombreFuncion() {"Instruccion"}
+     - Igualadas a variables o no anónimas
+        - const nombreFuncion = () => {}  
+
+ - Array (Listas o arreglos)
+   - Son grupos o listas de objetos, valores, o funciones: Arrays literales se escriben entre '[]', Los arrays asociativos JSON se escriben entre llaves {'descripcion':'valor'}
+
+ - Clases
+   - Son Objetos que tienen la capacidad de pasar parametros y cambiar sus propiedades: Se escriben siempre con mayusculas
+    - Ej. Programacion reactiva con React o Flutter   
+
+ - Metodos
+   - Son Funciones que viven dentro de una clase y van a afectar sus propiedades: Todos los metodos van despues de un punto "." y se escriben "camelCase"
+   - Ej. document.getElementById()
+
+ - Operadores lógicos
+   - Simbolos que nos permiten generar operaciones matemáticas
+     - Multiplicación: 2*2
+     - Suma: 2+2
+     - resta: 2-2
+     - Potencia: 2**2
+     - División: 2/2
+
+  - Estructuras de control
+    - Estructuras que nos permiten condicionar nuestro código
+      - If
+      - Switch
+      - For
+      - ForEach
+      - While
+
+  - Herencia

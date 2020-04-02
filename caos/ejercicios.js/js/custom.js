@@ -4,12 +4,12 @@ document.addEventListener("DOMContentLoaded", () => { // callback
     let body = document.querySelector("body");
 
     //DEBUG:
-    console.log("QUE HAY EN ESTE OBJETO?::: ", body);
+    // console.log("QUE HAY EN ESTE OBJETO?::: ", body);
 
     // TODO: log cuando damos click en <body/>
     body.addEventListener('click', () => {
 
-        console.log("Le diste click al body");
+        // console.log("Le diste click al body");
 
     });
     // propiedades se escriben cameCase
