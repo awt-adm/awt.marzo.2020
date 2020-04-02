@@ -1,8 +1,10 @@
 // TODO: cambiar el color del <body>
-
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => { // callback
 
     let body = document.querySelector("body");
+
+    //DEBUG:
+    console.log("QUE HAY EN ESTE OBJETO?::: ", body);
 
     // TODO: log cuando damos click en <body/>
     body.addEventListener('click', () => {
@@ -10,11 +12,11 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log("Le diste click al body");
 
     });
-
+    // propiedades se escriben cameCase
     body.style.backgroundColor = "red";
 
-    console.log("Ya cargo el documento");
-});
+    // console.log("Ya cargo el documento");
+}); // fin ready
 
 // TODO: Abre/Cierra una ventana modal
 // variables globales
