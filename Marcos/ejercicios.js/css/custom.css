@@ -32,3 +32,23 @@ body {
     cursor: pointer;
     height: auto;
 }
+
+
+/* Theme Light */
+
+.colorEspecialLight {
+    color: red;
+}
+
+
+/* Theme Dark */
+
+.colorEspecialDark {
+    color: lime;
+}
+
+/* Theme Navy */
+
+.colorEspecialDark {
+    color: purple;
+}
