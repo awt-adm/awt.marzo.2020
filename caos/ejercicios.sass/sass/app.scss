@@ -1,0 +1,31 @@
+// Version css
+// #portada {
+//   background-color: pink;
+//   color: purple;
+// }
+//variables: comienzan con signo '$'  se igualan  con ':'
+$variable_1: #FFF;
+$variable_etc: orange;
+
+//Sintaxis de sass: concatenado, el objeto '&' se refiere a su padre
+#portada {
+  background-color: pink;
+  color: purple;
+  h1 {
+    color: $variable_etc;
+    color: green;
+  }
+  p {
+    color: yellow;
+    span {
+      color: #FFF;
+      &:nth-child(2) {
+        color: green;
+        cursor: pointer;
+        &:hover {
+          color: purple;
+        }
+      }
+    }
+  }
+}

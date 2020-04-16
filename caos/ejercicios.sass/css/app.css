@@ -1,0 +1,23 @@
+#portada {
+  background-color: pink;
+  color: purple;
+}
+#portada h1 {
+  color: orange;
+  color: green;
+}
+#portada p {
+  color: yellow;
+}
+#portada p span {
+  color: #FFF;
+}
+#portada p span:nth-child(2) {
+  color: green;
+  cursor: pointer;
+}
+#portada p span:nth-child(2):hover {
+  color: purple;
+}
+
+/*# sourceMappingURL=app.css.map */

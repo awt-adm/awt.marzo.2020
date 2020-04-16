@@ -87,7 +87,7 @@ Nota: Para cerrar VIM(editor de texto en la terminal)
     - **Remover archivo**
       - rm archivo
     - **Remover carpeta**
-      - rm -r carpeta 
+      - rm -r carpeta
 
 - ##### POO 1
   - Fundamentos
@@ -154,3 +154,15 @@ Nota: Para cerrar VIM(editor de texto en la terminal)
       - While
 
   - Herencia
+
+
+### 4
+
+### 5
+- Gestor de paquetes
+  - Win: [Chocolately](https://chocolatey.org/)
+    - Usar PowerShell como administrador
+  - MAC: [Brew](https://brew.sh/)
+  - Ubuntu: apt-get
+
+- ###### [SASS](https://sass-lang.com/)
