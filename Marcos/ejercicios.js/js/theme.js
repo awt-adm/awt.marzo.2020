@@ -31,8 +31,8 @@ const cambiaColores = (tema) => {
     let span = document.querySelectorAll('body span');
 
     // Variables Color light
-    let fondoLight = "#FFF"; // 
-    let tituloLight = "#012e32"; // 
+    let fondoLight = "#FFF"; //
+    let tituloLight = "#012e32"; //
     let parrafoLight = "#000"; //
     let linkLight = "#aa7039"; //
     let linkHoverLight = "#842c00"; //
@@ -42,14 +42,14 @@ const cambiaColores = (tema) => {
     let parrafoDark = "whitesmoke";
     let linkDark = "#aa8d32";
     let linkHoverDark = "#fffdf8";
-    // 
+    //
     // Variables Color navy
     let fondoNavy = "#00143d";
     let tituloNavy = "#b5426e";
     let parrafoNavy = "efb8ea";
     let linkNavy = "#30bfc9";
     let linkHoverNavy = "#4b5358";
-    // 
+    //
     switch (tema) {
         case "light":
             //codigo
@@ -63,7 +63,8 @@ const cambiaColores = (tema) => {
             });
             span.forEach((item) => {
                 item.classList.add("colorTextoLight");
-                item.classList.remove("colorTextoDark", "colorTextoNavy");
+                item.classList.remove("colorTextoDark");
+                item.classList.remove("colorTextoNavy");
             });
             break;
         case "dark":
@@ -80,13 +81,14 @@ const cambiaColores = (tema) => {
             });
             span.forEach((item) => {
                 item.classList.add("colorEspecialDark");
-                item.classList.remove("colorEspecialLight", "colorEspecialNavy");
+                item.classList.remove("colorEspecialLight");
+                item.classList.remove("colorEspecialNavy");
             });
             break;
-        case "Navy":
+        case "navy":
             //codigo
             body.style.backgroundColor = fondoNavy;
-        
+
             body.style.color = parrafoNavy;
             links.forEach((item) => {
                 item.style.color = linkNavy;
@@ -97,7 +99,8 @@ const cambiaColores = (tema) => {
             });
             span.forEach((item) => {
                 item.classList.add("colorEspecialNavy");
-                item.classList.remove("colorEspecialLight", "colorEspecialDark");
+                item.classList.remove("colorEspecialLight");
+                item.classList.remove("colorEspecialDark");
             });
             break;
         default:
