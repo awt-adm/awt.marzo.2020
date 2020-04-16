@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo|Exo+2|Indie+Flower|Pacifico&display=swap');
+//Variables
+// familias de texto
+$cario: 'Cairo';
+$exo: 'Exo 2';
+$indie: 'Indie Flower';
+$pacifico: 'Pacifico';
+// tamanos
+$texto_xs: 0.5rem;
+$texto_sm: 0.75rem;
+$texto_m: 1rem;
+$texto_lg: 1.25rem;
+$texto_xlg: 1.5rem;
+$texto_xxlg: 1.75rem;
+
+// Arrays, Arreglos o listas
+// SASS usa arrays asociativos cad indice tiene 'key' => 'Value'
+$array: (
+xs $texto_xs,
+sm $texto_sm,
+m $texto_m,
+lg $texto_lg,
+xlg $texto_xlg,
+xxlg $texto_xxlg
+);
+$familias: (
+cairo $cario,
+exo $exo,
+indie $indie,
+pacifico $pacifico
+);
+
+// Iteracion
+// #{nth($value, 1)} indica el indice que tomamos
+@each $elemento in $array {
+  .texto_#{nth($elemento, 1)} {
+    & {
+      font-size: nth($elemento, 2);
+    }
+  }
+}
+@each $familia in $familias {
+  .familia-#{nth($familia, 1)} {
+    & {
+      font-family: nth($familia, 2);
+    }
+  }
+}
+
+
+
+// /resultado
+// .texto_xs
+// .texto_sm
+// .texto_m
+// .texto_lg
+// .texto_xlg
+// .texto_xxlg

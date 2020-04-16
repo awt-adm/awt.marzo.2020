@@ -159,10 +159,32 @@ Nota: Para cerrar VIM(editor de texto en la terminal)
 ### 4
 
 ### 5
-- Gestor de paquetes
+- Gestores de paquetes
   - Win: [Chocolately](https://chocolatey.org/)
     - Usar PowerShell como administrador
   - MAC: [Brew](https://brew.sh/)
   - Ubuntu: apt-get
 
-- ###### [SASS](https://sass-lang.com/)
+- [SASS](https://sass-lang.com/)
+  - Variables comienzan con **'$'**  se igualan  con **':'**
+  - ['&'](https://css-tricks.com/the-sass-ampersand/) se refiere a su padre
+  - Listas (Arrays)
+  - Iteración con **'@each'**
+
+  - Tarea:
+    - TODO: Solo SASS
+      - Crar un nuevo proyecto
+      - onepage
+      - header
+        - logo
+        - meno de cada seccion
+      - 4 secciones minimo
+        - portada
+        - quien somos
+        - grid de productos
+        - contacto
+          - 3 inputs
+          - nombre
+          - correo
+          - Mensaje
+          - boton "Enviar"
